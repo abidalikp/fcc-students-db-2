@@ -66,3 +66,69 @@ history -a
 ./student_info.sh
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+clear
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+ssh-keygen -t ed25519 -C "abidalikp98@gmail.com"
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+clear
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+ssh-add ~/.ssh/id_ed25519
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+eval "$(ssh-agent -s)"
+SSH_AUTH_SOCK=/tmp/ssh-F85NNVFJKEdt/agent.31890
+export SSH_AUTH_SOCK
+SSH_AGENT_PID=31891
+export SSH_AGENT_PID
+echo Agent pid 31891
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+cd ~/.ssh/
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+cat id_ed25519
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+cat id_ed25519.pub
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+clear
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+cd ..
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+cd project/
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+ls --color=auto
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+touch .gitignore
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+vi .gitignore
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+clear
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote add origin git@github.com:abidalikp/students-fcc-db-2.git
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+clear
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git push -u origin master
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+clear
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git status
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git add .
